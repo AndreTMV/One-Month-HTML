@@ -1,0 +1,152 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clear {
+  clear: both;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+  background: #d6d6d6;
+  background: url("../images/notebook.png");
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  line-height: 1.7; /* line-height is unit-less */
+  font-size: 100%;
+}
+#header {
+  position: relative;
+}
+
+#title {
+  margin: 50px 0 0 0;
+  position: relative;
+  left: 500px;
+}
+#belowtitle {
+  margin: 0 0 30px 0;
+  position: relative;
+  left: 500px;
+}
+
+#container {
+  float: left;
+  position: relative;
+  left: 500px;
+  width: 600px;
+  background: white;
+}
+
+.paragraph {
+  font-size: 11px;
+  margin: 0 0 0 0;
+  padding: 0px 0px 5px 25px;
+}
+
+.subparagraph {
+  font-size: 11px;
+  margin: 0 0 30px 0;
+  padding: 0px 0px 5px 25px;
+  color: gray;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  padding: 20px 0px 5px 25px;
+}
+
+img {
+  margin: 0 0 0 0;
+  padding: 0px 0px 5px 25px;
+}
+
+hr {
+  margin: 0 25px 5px 25px;
+  color: gray;
+}
+
+h4 {
+  font-weight: lighter;
+  position: relative;
+  left: 25px;
+}
+
+ul {
+  margin-left: 20px;
+}
+#facebook {
+  margin-bottom: 50px;
+}
+#Follow {
+  position: relative;
+  left: 25px;
+}
+
+#sidebar {
+  width: 300px;
+  background: white;
+  border-left-width: 02px;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  border-bottom-width: 02px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  float: left;
+  position: relative;
+  left: 510px;
+}
+
+#photo {
+  display: block;
+  margin-top: 20px;
+  border-radius: 70%;
+}
+
+#quote {
+  width: 280px;
+}
+
+blockquote {
+  position: relative;
+  left: -10px;
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: lightgray;
+}
+
+#cite {
+  position: relative;
+  left: 8px;
+  font-size: 14px;
+}
+#footed {
+  float: left;
+  position: relative;
+  left: 500px;
+  width: 600px;
+}
+
+a {
+  color: rgb(228, 136, 119);
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/

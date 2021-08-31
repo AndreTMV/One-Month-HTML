@@ -1,0 +1,15 @@
+#IDs
+you cannot reuse an ID name
+Only one per page!
+
+.classes
+You can have multiple class names per page
+
+inline vs block
+
+Inline elements fall side by side
+Block elements take up the full width 
+
+Inline-block elements maintain their width (like block elements), but fall side by side (like inline elements).
+
+
